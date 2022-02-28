@@ -1,4 +1,4 @@
-import PlainButton from "components/buttons/plain-button";
+import PlainButton from "lib/components/buttons/plain-button";
 import React from "react";
 
 function App() {
