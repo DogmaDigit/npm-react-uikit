@@ -11,7 +11,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _plainButtonModule = _interopRequireDefault(require("./plain-button.module.scss"));
+var _plainButton = _interopRequireDefault(require("./plain-button.scss"));
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
@@ -53,7 +53,7 @@ const PlainButton = _ref => {
       clickEvent();
       buttonElement.current.focus();
     },
-    className: "".concat(_plainButtonModule.default.button__default__D015, " ").concat(isActive ? "".concat(_plainButtonModule.default.button__active__D015, " ").concat(activeClass) : defaultClass, " ").concat(className, " button__regular-text"),
+    className: "".concat(_plainButton.default.button__default__D015, " ").concat(isActive ? "".concat(_plainButton.default.button__active__D015, " ").concat(activeClass) : defaultClass, " ").concat(className, " button__regular-text"),
     onMouseLeave: () => buttonElement.current.blur()
   }, children);
 };

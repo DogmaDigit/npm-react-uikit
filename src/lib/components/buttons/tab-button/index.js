@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./tab-button.module.scss";
+import classes from "./tab-button.scss";
 import PropTypes from "prop-types";
 
 const TabButton = ({

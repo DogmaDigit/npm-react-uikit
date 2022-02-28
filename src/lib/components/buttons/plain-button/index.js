@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useRef } from "react";
 import React from "react";
 
-import classes from "./plain-button.module.scss";
+import classes from "./plain-button.scss";
 
 const PlainButton = ({ isActive, isDisabled, children, clickEvent, defaultClass, activeClass, buttonColor, className, style }) => {
 	/**

@@ -7,7 +7,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _tabButtonModule = _interopRequireDefault(require("./tab-button.module.scss"));
+var _tabButton = _interopRequireDefault(require("./tab-button.scss"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
@@ -21,7 +21,7 @@ const TabButton = _ref => {
     text
   } = _ref;
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "".concat(_tabButtonModule.default.tab__container__D015, " ").concat(className, " ").concat(isActive ? _tabButtonModule.default.active__class__D015 : '', " font-bold")
+    className: "".concat(_tabButton.default.tab__container__D015, " ").concat(className, " ").concat(isActive ? _tabButton.default.active__class__D015 : '', " font-bold")
   }, text);
 };
 
