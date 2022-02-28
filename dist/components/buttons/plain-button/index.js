@@ -53,7 +53,7 @@ const PlainButton = _ref => {
       clickEvent();
       buttonElement.current.focus();
     },
-    className: "".concat(_plainButtonModule.default.button__default, " ").concat(isActive ? "".concat(_plainButtonModule.default.button__active, " ").concat(activeClass) : defaultClass, " ").concat(className, " button__regular-text"),
+    className: "".concat(_plainButtonModule.default.button__default__D015, " ").concat(isActive ? "".concat(_plainButtonModule.default.button__active__D015, " ").concat(activeClass) : defaultClass, " ").concat(className, " button__regular-text"),
     onMouseLeave: () => buttonElement.current.blur()
   }, children);
 };

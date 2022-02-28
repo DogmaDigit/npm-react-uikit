@@ -21,7 +21,7 @@ const TabButton = _ref => {
     text
   } = _ref;
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "".concat(_tabButtonModule.default.tab__container, " ").concat(className, " ").concat(isActive ? _tabButtonModule.default.active__class : '', " font-bold")
+    className: "".concat(_tabButtonModule.default.tab__container__D015, " ").concat(className, " ").concat(isActive ? _tabButtonModule.default.active__class__D015 : '', " font-bold")
   }, text);
 };
 

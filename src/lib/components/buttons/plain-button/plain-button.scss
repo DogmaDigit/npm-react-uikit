@@ -1,7 +1,7 @@
 @import "lib/styles/global/colors";
 @import "lib/styles/global/sizes";
 
-.button__default {
+.button__default__D015 {
   outline: none;
   border-radius: $light-radius;
   background-color: $black-90;
@@ -29,7 +29,7 @@
   }
 }
 
-.button__active {
+.button__active__D015 {
   background-color: $white-100;
   color: $black-90;
   border: 1px solid $black-90;

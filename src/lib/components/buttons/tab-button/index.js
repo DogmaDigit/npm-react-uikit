@@ -10,7 +10,7 @@ const TabButton = ({
 }) => {
 
     return (
-        <div className={`${classes.tab__container} ${className} ${isActive ? classes.active__class : ''} font-bold`}>
+        <div className={`${classes.tab__container__D015} ${className} ${isActive ? classes.active__class__D015 : ''} font-bold`}>
             {text}
         </div>
     )

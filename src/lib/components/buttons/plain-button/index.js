@@ -23,8 +23,8 @@ const PlainButton = ({ isActive, isDisabled, children, clickEvent, defaultClass,
 				clickEvent();
 				buttonElement.current.focus();
 			}}
-			className={`${classes.button__default} ${
-				isActive ? `${classes.button__active} ${activeClass}` : defaultClass
+			className={`${classes.button__default__D015} ${
+				isActive ? `${classes.button__active__D015} ${activeClass}` : defaultClass
 			} ${className} button__regular-text`}
 			onMouseLeave={() => buttonElement.current.blur()}
 		>
